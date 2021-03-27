@@ -12,7 +12,7 @@ public class CommissionEmployee extends SalariedEmployee implements Comparable<C
 
     @Override
     public double getPayAmount() {
-        return super.getPayAmount()+(sales*rate);
+        return super.getPayAmount() + (sales*rate);
     }
 
     @Override
